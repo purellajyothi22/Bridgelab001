@@ -1,0 +1,37 @@
+    1  git version
+    2  git --version
+    3  git help config
+    4  git config --help
+    5  pwd
+    6  ls
+    7  cd Desktop/
+    8  pwd
+    9  cd ..
+   10  git config --global user.name "purellajyothi22"
+   11  git config --global user.email "purellajyothi22@gmail.com"
+   12  mkdir JyothiGithub
+   13  cd JyothiGithub/
+   14  touch a.txt
+   15  touch b.txt
+   16  touch c.txt
+   17  ls
+   18  nano a.txt 
+   19  nano b.txt 
+   20  nano c.txt 
+   21  ls -lrt
+   22  git init
+   23  git satus
+   24  git status
+   25  git add a.txt 
+   26  git status
+   27  git commit -m "committed a.txt"
+   28  git remote add origin https://github.com/purellajyothi22/Bridgelab001.git
+   29  git push -u origin master
+   30  git status
+   31  git add b.txt
+   32  git status
+   33  git commit -m "committed b.txt"
+   34  git remote add origin https://github.com/purellajyothi22/Bridgelab001.git
+   35  git push -u origin master
+   36  git status
+   37  history > History.txt
