@@ -1,0 +1,501 @@
+   56  cat pqr.txt 
+   57  cat xyz.txt 
+   58  cd ..
+   59  rm -r /
+   60  ls
+   61  rm -a
+   62  ls | rm -r
+   63  rm -r $(ls -p | grep/)
+   64  nano program.sh 
+   65  bash program.sh 
+   66  cat program.sh 
+   67  nano program.sh 
+   68  bash program.sh 
+   69  $$
+   70  $?
+   71  $%
+   72  %d
+   73  ls
+   74  ls | rm -r
+   75  rm -r /
+   76  ls
+   77  pwd
+   78  cd ../..
+   79  ls
+   80  ls
+   81  history > day4history.txt
+   82  ls -p
+   83  ls
+   84  ls -p | grep -v
+   85  ls -p | grep -v/
+   86  ls -p | grep -v /
+   87  ls -p | grep 
+   88  ls -p | grep /
+   89  mkdir asdf
+   90  ls -p | grep /
+   91  mkdir ASCV
+   92  ls -p | grep /
+   93  ls
+   94  ls -
+   95  ls -l
+   96  ls -a
+   97  ls 
+   98  clear
+   99  pwd
+  100  cd ~
+  101  cd /c/Users/Dell/Desktop/Bridgelabz/Day4
+  102  ls
+  103  ls --help
+  104  cp --help
+  105  clear
+  106  grep --help
+  107  ls 
+  108  ls --help
+  109  ls -p
+  110  env
+  111  env | grep -i home
+  112  env | grep home
+  113  echo $ USER
+  114  echo $USER
+  115  ls - lrt
+  116  ls -lrt
+  117  ls -l
+  118  ls -r
+  119  ls -t
+  120  ls -lt
+  121  ps -fel
+  122  ps -elf
+  123  ps -fle
+  124  sleep 10000
+  125  fg %
+  126  bg %
+  127  ps -elf
+  128  kill -9 2663
+  129  ps -elf
+  130  kill -9 2015
+  131  ps -elf
+  132  killall 
+  133  kill all
+  134  sleep 20000
+  135  ps -elf
+  136  ps -elf | grep sleep
+  137  ps -elf | grep sleep | grep -v grep
+  138  echo  hello everyone | awk '{print $0}'
+  139  echo  hello everyone | awk '{print $1}'
+  140  echo  hello everyone | awk '{print $2}'
+  141  echo  hello everyone | awk '{print}'
+  142  pwd
+  143  cd ~
+  144  cd /c/Users/Dell/Desktop/Bridgelabz/Day4
+  145  ls
+  146  cd Folder1
+  147  ls
+  148  pwd
+  149  cd /c/Users/Dell/Desktop/Bridgelabz/D
+  150  cd /c/Users/Dell/Desktop/Bridgelabz/
+  151  exit
+  152  exit
+  153  a=55;
+  154  b=65;
+  155  echo "Addition of $a and $b";
+  156  echo "---------------------";
+  157  c=$((a+b));
+  158  echo $c;
+  159  echo "Subtraction of $a and $b";
+  160  echo "----------------------";
+  161  d=$((b-a));
+  162  echo $d;
+  163  echo "Multiplication of $a and $b";
+  164  echo "----------------------";
+  165  e=$((a*b));
+  166  echo $e;
+  167  echo "Division of $a and $b";
+  168  echo "----------------------";
+  169  f=$((b/a));
+  170  echo $f;
+  171  echo "Remainder of $a and $b";
+  172  echo "----------------------";
+  173  g=$((b%a));
+  174  echo $g;
+  175  pwd
+  176  cd /c/Users/Dell/Desktop/Bridgelabz/
+  177  cd /c/Users/Dell/Desktop/Bridgelabz/
+  178  day5
+  179  cd day5
+  180  touch ls *.sh
+  181  ls
+  182  nano ls *.sh
+  183  ls
+  184  cat ls *.sh
+  185  ./ls *.sh
+  186  ls
+  187  mv ls *.sh program.sh
+  188  cat \*.sh 
+  189  nano ls *.sh
+  190  touch program.sh
+  191  nano program.sh 
+  192  cat program.sh 
+  193  bash program.sh 
+  194  nano program.sh 
+  195  bash program.sh 
+  196  touch d.txt
+  197  ls
+  198  nano d.txt
+  199  ls
+  200  rm -rf \*.sh 
+  201  ls
+  202  nano asd.txt
+  203  ls
+  204  nano sdf.txt
+  205  ls
+  206  bash sdf.txt 
+  207  nano qwe.pdf
+  208  nano asz.pdf
+  209  ls
+  210  nano sdf.txt 
+  211  bash sdf.txt 
+  212  nano sdf.txt 
+  213  bash sdf.txt 
+  214  cat sdf.txt 
+  215  'ls *.txt  *.pdf'
+  216  ls *.txt  *.pdf
+  217  ls
+  218  cat ls 
+  219  mv ls lsd.csv
+  220  ls
+  221  bash sdf.txt 
+  222  nano sdf.txt 
+  223  bash sdf.txt 
+  224  nano program.sh 
+  225  bash program.sh 
+  226  cd ../day3
+  227  ls
+  228  pwd
+  229  cp program.sh /c/Users/Dell/Desktop/Bridgelabz/day5/qwerty.sh
+  230  cd day5
+  231  ls
+  232  cd ../day5
+  233  ls
+  234  bash qwerty.sh 
+  235  cat qwerty.sh 
+  236  cd ../day3
+  237  bash qwerty.sh 
+  238  ls
+  239  bash program.sh 
+  240  ./program.sh 
+  241  cd ../day5
+  242  ./qwerty.sh 
+  243  ls
+  244  mv sdf.txt sdf.sh
+  245  ls
+  246  ./sdf.sh 
+  247  cd ..
+  248  mkdir shellscripting
+  249  cd shellscripting/
+  250  pwd
+  251  ls
+  252  touch program1.sh
+  253  ls
+  254  nano program1.sh 
+  255  bash program1.sh 
+  256  nano program2.sh 
+  257  bash program2.sh 
+  258  nano program2.sh 
+  259  bash program2.sh 
+  260  nano program3.sh 
+  261  bash program3.sh 
+  262  nano program3.sh 
+  263  bash program3.sh 
+  264  nano program3.sh 
+  265  bash program3.sh 
+  266  nano program3.sh 
+  267  bash program3.sh 
+  268  nano program3.sh 
+  269  bash program3.sh 
+  270  nano program3.sh 
+  271  bash program3.sh 
+  272  nano program3.sh 
+  273  bash program3.sh 
+  274  nano program3.sh 
+  275  bash program3.sh 
+  276  ls
+  277  bash program1.sh 
+  278  bash program2.sh
+  279  bash program3.sh 
+  280  nano ifstatement1.sh 
+  281  bash ifstatement1.sh 
+  282  nano ifstatement1.sh 
+  283  bash ifstatement1.sh 
+  284  nano ifstatement1.sh 
+  285  bash ifstatement1.sh 
+  286  nano ifstatement1.sh 
+  287  bash ifstatement1.sh 
+  288  nano ifstatement1.sh 
+  289  clear
+  290  bash ifstatement1.sh 
+  291  nano ifstatement1.sh 
+  292  bash ifstatement1.sh 
+  293  nano ifstatementnew.sh
+  294  bash ifstatementnew.sh
+  295  nano ifstatementnew.sh
+  296  bash ifstatementnew.sh
+  297  cat ifstatementnew.sh 
+  298  nano ifstatementnew.sh
+  299  bash ifstatementnew.sh
+  300  cat ifstatement1.sh 
+  301  cat ifstatementnew.sh 
+  302  nano ifstatement1.sh 
+  303  ./ifstatement1.sh 
+  304  nano random.sh
+  305  bash random.sh
+  306  nano random.sh
+  307  bash random.sh
+  308  nano random.sh
+  309  bash random.sh
+  310  nano random.sh
+  311  bash random.sh
+  312  nano random.sh
+  313  bash random.sh
+  314  nano ispresent.sh
+  315  bash ispresent.sh
+  316  nano ispresent.sh
+  317  bash ispresent.sh
+  318  nano ispresent.sh
+  319  bash ispresent.sh
+  320  nano ispresent.sh
+  321  cat ispresent.sh 
+  322  cat ispresent.sh 
+  323  bash ispresent.sh
+  324  bash ispresent.sh
+  325  nano ispresent.sh 
+  326  bash ispresent.sh
+  327  nano ispresent.sh 
+  328  bash ispresent.sh
+  329  nano ispresent.sh 
+  330  bash ispresent.sh
+  331  nano present2.sh
+  332  bash present2.sh
+  333  nano present2.sh
+  334  bash present2.sh
+  335  nano present2.sh
+  336  bash present2.sh
+  337  cat present2.sh 
+  338  bash present2.sh
+  339  bash present2.sh
+  340  bash present2.sh
+  341  bash present2.sh
+  342  nano casepresent.sh
+  343  bash casepresent.sh
+  344  bash casepresent.sh
+  345  bash casepresent.sh
+  346  nano casepresent.sh
+  347  bash casepresent.sh
+  348  bash casepresent.sh
+  349  bash casepresent.sh
+  350  bash casepresent.sh
+  351  bash casepresent.sh
+  352  nano casepresent.sh
+  353  bash casepresent.sh
+  354  bash casepresent.sh
+  355  bash casepresent.sh
+  356  bash casepresent.sh
+  357  bash casepresent.sh
+  358  bash casepresent.sh
+  359  bash casepresent.sh
+  360  bash casepresent.sh
+  361  bash casepresent.sh
+  362  bash casepresent.sh
+  363  bash casepresent.sh
+  364  ls
+  365  cat random.sh 
+  366  bash random.sh 
+  367  nano random.sh 
+  368  bash random.sh 
+  369  bash random.sh 
+  370  bash random.sh 
+  371  bash random.sh 
+  372  bash random.sh 
+  373  bash random.sh 
+  374  bash random.sh 
+  375  bash random.sh 
+  376  bash random.sh 
+  377  ls
+  378  history > day5history.txt
+  379  history
+  380  clear
+  381  ls
+  382  cd ..
+  383  ls
+  384  exit
+  385  pwd
+  386  cd Desktop/BridgeLabz/
+  387  ls
+  388  cd Day6/
+  389  ls -l
+  390  ls
+  391  clear
+  392  nano bublesort.sh
+  393  ;s
+  394  ls
+  395  clear
+  396  bash bublesort.sh 
+  397  clear
+  398  nano forloop1.sh
+  399  bash forloop1.sh
+  400  nano forloop1.sh
+  401  bash forloop1.sh
+  402  nano forloop1.sh
+  403  bash forloop1.sh
+  404  nano forloop1.sh
+  405  nano employeeFofloop.sh
+  406  bash employeeFofloop.sh
+  407  nano employeeFofloop.sh
+  408  bash employeeFofloop.sh
+  409  nano employeeFofloop.sh
+  410  bash employeeFofloop.sh
+  411  nano employeeFofloop.sh
+  412  bash employeeFofloop.sh
+  413  bash employeeFofloop.sh
+  414  bash employeeFofloop.sh
+  415  bash employeeFofloop.sh
+  416  bash employeeFofloop.sh
+  417  nano employeeFofloop.sh
+  418  bash employeeFofloop.sh
+  419  clear
+  420  bash employeeFofloop.sh
+  421  bash employeeFofloop.sh
+  422  bash employeeFofloop.sh
+  423  bash employeeFofloop.sh
+  424  bash employeeFofloop.sh
+  425  cat employeeFofloop.sh
+  426  bash employeeFofloop.sh
+  427  bash employeeFofloop.sh
+  428  nano employeeFofloop.sh
+  429  bash employeeFofloop.sh
+  430  bash employeeFofloop.sh
+  431  bash employeeFofloop.sh
+  432  bash employeeFofloop.sh
+  433  nano employeeFofloop.sh
+  434  bash employeeFofloop.sh
+  435  bash employeeFofloop.sh
+  436  bash employeeFofloop.sh
+  437  bash employeeFofloop.sh
+  438  bash employeeFofloop.sh
+  439  bash employeeFofloop.sh
+  440  bash employeeFofloop.sh
+  441  nano employeeFofloop.sh
+  442  nano employeeFofloop.sh
+  443  nano employeeFofloop.sh
+  444  bash employeeFofloop.sh
+  445  nano employeeFofloop.sh
+  446  bash employeeFofloop.sh
+  447  bash employeeFofloop.sh
+  448  bash employeeFofloop.sh
+  449  bash employeeFofloop.sh
+  450  nano Whileloop1.sh
+  451  bash employeeFofloop.sh
+  452  bash employeeFofloop.sh
+  453  bash employeeFofloop.sh
+  454  cat employeeFofloop.sh 
+  455  nano employeeFofloop.sh
+  456  bash employeeFofloop.sh
+  457  nano employeeFofloop.sh
+  458  bash employeeFofloop.sh
+  459  ls
+  460  nano Whileloop1.sh 
+  461  bash Whileloop1.sh 
+  462  nano Whileloop1.sh 
+  463  nano Whileloop1.sh 
+  464  bash Whileloop1.sh 
+  465  nano Whileloop1.sh 
+  466  bash Whileloop1.sh 
+  467  nano Whileloop1.sh 
+  468  bash Whileloop1.sh 
+  469  nano Whileloop1.sh 
+  470  bash Whileloop1.sh 
+  471  nano Whileloop1.sh 
+  472  bash Whileloop1.sh 
+  473  nano Whileloop1.sh 
+  474  bash Whileloop1.sh 
+  475  nano Whileloop1.sh 
+  476  bash Whileloop1.sh 
+  477  cat Whileloop1.sh 
+  478  nano whileEmployee.sh
+  479  bash whileEmployee.sh
+  480  nano whileEmployee.sh
+  481  bash whileEmployee.sh
+  482  nano whileEmployee.sh
+  483  bash whileEmployee.sh
+  484  ls
+  485  bash bublesort.sh 
+  486  nano bublesort.sh 
+  487  bash bublesort.sh 
+  488  nano bublesort.sh 
+  489  bash bublesort.sh 
+  490  cat bublesort.sh 
+  491  bash bublesort.s
+  492  bash bublesort.sh 
+  493  nano bublesort.sh 
+  494  bash bublesort.sh 
+  495  cat bublesort.sh 
+  496  nano bublesort.sh 
+  497  bash bublesort.sh 
+  498  exit
+  499  cd Desktop/BridgeLabz/
+  500  ls
+  501  cd Day6
+  502  ls
+  503  cd ../Day7
+  504  clear
+  505  ls
+  506  nano quiz5.txt
+  507  cat quiz5.txt 
+  508  head -7 quiz.txt | tail -3
+  509  mv quiz5.txt  quiz5.csv
+  510  ls
+  511  head -7 quiz.csv | tail -3
+  512  head -7 quiz5.csv | tail -3
+  513  cat quiz5.txt 
+  514  cat quiz5.csv 
+  515  head -3 quiz5.csv 
+  516  cat quiz5.csv | grep 2, 4, 6, 8, 10, 12 | awk '{print $0}'
+  517  cat quiz5.csv | grep 2, 4, 6, 8 | awk '{print $0}'
+  518  cat quiz5.csv | grep 2,4,6,8 | awk '{print $0}
+'
+  519  cat quiz5.csv | awk '{if($1%2 == 0)}{print $0}'
+  520  cat quiz5.csv | awk '{if($1%2 == 0)}{print $0}'
+  521  cat quiz5.csv | awk '{$1%2 == 0 }{print $0}'
+  522  nano quiz5.csv 
+  523  cat quiz5.csv | awk '{$1%2 == 0 }{print $0}'
+  524  cat quiz5.csv | awk '{$1%2 == 0 }{print $0}'
+  525  cat quiz5.csv | grep 2,4,6,8 | awk '{print $0}'
+  526  cat quiz5.csv | grep 2| awk '{print $0}'
+  527  cat quiz5.csv | grep 4 | awk '{print $0}'
+  528  cat quiz5.csv | grep 6 | awk '{print $0}'
+  529  cat quiz5.csv | grep 2,6 | awk '{print $0}'
+  530  cat quiz5.csv | grep -i s.no | awk '{print $0}'
+  531  cat quiz5.csv | grep -i 2 | awk '{print $0}'
+  532  cat quiz5.csv | grep -i 2,4 | awk '{print $0}'
+  533  cat quiz5.csv | grep 2,4,6,8 | awk '{print $0}'
+  534  cat quiz5.csv | awk '{$1%2 == 0 }{print $0}'
+  535  cat quiz5.csv | awk '{if($1%2 == 0)}{print $0}'
+  536  cat quiz5.csv | awk '{if($1%2 == 0) print $0}'
+  537  cat quiz5.csv | grep -v abc | awk '{sum+=$4}END{print sum/NR}'
+  538  cat quiz5.csv | grep -v jkl | awk '{sum+=$4}END{print sum/NR}'
+  539  cat quiz5.csv | grep -i jkl | awk '{sum+=$4}END{print sum/NR}'
+  540  cat quiz5.csv | grep -i abc | awk '{sum+=$4}END{print sum/NR}'
+  541  sleep 10000
+  542  ps -fel | grep sleep
+  543  ps -elf | awk {print sleep}
+  544  ls -l | grep sleep
+  545  ps -elf
+  546  sleep 100000
+  547  ps -elf
+  548  ps -fel
+  549  sleep 60000
+  550  ps -fel
+  551  ps -fel | grep sleep
+  552  ls
+  553  cat quiz5.csv 
+  554  history
+  555  history > quiz5questions.txt
